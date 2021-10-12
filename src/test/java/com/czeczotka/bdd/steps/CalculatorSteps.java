@@ -20,16 +20,17 @@ public class CalculatorSteps {
 
     @Given("^I have a calculator$")
     public void i_have_a_calculator() throws Throwable {
-        assertNotNull(calculator);
+        //assertNotNull(calculator);
     }
 
     @When("^I add (\\d+) and (\\d+)$")
     public void i_add_and(int arg1, int arg2) throws Throwable {
-        calculator.add(arg1, arg2);
+        //calculator.add(arg1, arg2);
     }
 
     @Then("^the result should be (\\d+)$")
-    public void the_result_should_be(int result) throws Throwable {
-        assertEquals(result, calculator.getResult());
+    public void the_result_should_be(int result) {
+        throw new RuntimeException("aaa");
+        //assertEquals(result, calculator.getResult());
     }
 }
