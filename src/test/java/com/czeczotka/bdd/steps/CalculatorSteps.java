@@ -31,6 +31,29 @@ public class CalculatorSteps {
     @Then("^the result should be (\\d+)$")
     public void the_result_should_be(int result) {
         throw new RuntimeException("aaa");
+       // throw new IllegalArgumentException("localDate= cannot be in the future");
+//            List names = new ArrayList<>();
+//            names.add("Eric");
+//            names.add("Sydney");
+//
+//            Iterator iterator = names.iterator();
+//
+//            while (iterator.hasNext()) {
+//                iterator.remove();
+//            }
+
+//        List names = new ArrayList<>();
+//        names.add("Eric");
+//        names.add("Sydney");
+
+//        return names.get(5);
+//        Integer number = null;
+//
+//        if (number > 0) {
+//            System.out.println("Positive number");
+//        }
+        //throw new NoSuchMethodException("sss");
+        //throw new InvocationTargetException(new Throwable());
         //assertEquals(result, calculator.getResult());
     }
 }
