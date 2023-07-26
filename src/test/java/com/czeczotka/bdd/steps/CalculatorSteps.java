@@ -29,7 +29,8 @@ public class CalculatorSteps {
     }
 
     @Then("^the result should be (\\d+)$")
-    public void the_result_should_be(int result) {
+    public void the_result_should_be(int result) throws InterruptedException {
+        Thread.sleep(10000);
         throw new RuntimeException("aaa");
        // throw new IllegalArgumentException("localDate= cannot be in the future");
 //            List names = new ArrayList<>();
