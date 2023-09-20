@@ -5,7 +5,7 @@ Feature: Calculator
   I want to use a calculator
   So that I don't need to calculate myself
 
-  Scenario: Add two numbers
+  Scenario: Add two numbers dsd
     Given I have a calculator
     When I add 2 and 3
     Then the result should be 5
