@@ -1,5 +1,3 @@
-#Auto generated Octane revision tag
-@TID1003REV0.0.1
 Feature: Calculator
   As a user
   I want to use a calculator
